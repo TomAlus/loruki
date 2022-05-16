@@ -17,6 +17,7 @@
 
 .btn {
   display: inline-block;
+  font-size: 1.6rem;
   padding: 1rem 3rem;
   cursor: pointer;
   background-color: var(--color-primary);

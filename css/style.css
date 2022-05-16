@@ -247,6 +247,66 @@ img {
 }
 
 /* Footer */
+.footer h1 {
+  font-size: 3.6rem;
+  margin: 0 1rem;
+}
+
+.footer p {
+  font-size: 1.6rem;
+}
+
+.footer nav a {
+  font-size: 1.6rem;
+}
+
 .footer .social a {
   margin: 0 1rem;
+}
+
+/* Media Queries */
+/* Tablets and under */
+@media screen and (max-width: 768px) {
+  .grid,
+  .showcase .grid,
+  .stats .grid,
+  .cloud .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .showcase {
+    height: auto;
+  }
+
+  .showcase__text {
+    text-align: center;
+    margin-top: 4rem;
+  }
+
+  .showcase__form {
+    justify-self: center;
+    margin: auto;
+  }
+
+  .footer h1 {
+    font-size: 3.6rem;
+    margin: 0;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 500px) {
+  .navbar {
+    height: 110px;
+  }
+
+  .navbar .flex {
+    flex-direction: column;
+  }
+
+  .navbar ul {
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
 }
