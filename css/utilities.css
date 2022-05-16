@@ -60,6 +60,13 @@
   color: var(--color-gray);
 }
 
+.bg-primary a,
+.bg-secondary a,
+.bg-light a,
+.bg-dark a {
+  color: var(--color-white);
+}
+
 /* Text sizes */
 .lead {
   font-size: 2rem;
