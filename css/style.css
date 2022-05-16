@@ -61,15 +61,19 @@ img {
   width: 100%;
 }
 
-/* NAVBAR */
-.logo {
-  font-size: 3rem;
-}
-
-.navbar {
+/* Header */
+header {
   background-color: var(--color-primary);
   color: var(--color-white);
   height: 7rem;
+}
+
+header .flex {
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 3rem;
 }
 
 .navbar ul {
@@ -85,10 +89,6 @@ img {
 
 .navbar a:hover {
   border-bottom: 2px solid var(--color-white);
-}
-
-.navbar .flex {
-  justify-content: space-between;
 }
 
 /* Showcase */
@@ -262,6 +262,21 @@ img {
 
 .footer .social a {
   margin: 0 1rem;
+}
+
+/* Features */
+.features-head img {
+  width: 20rem;
+  justify-self: flex-end;
+}
+
+.features-sub-head img {
+  width: 30rem;
+  justify-self: flex-start;
+}
+
+.features-sub-head p {
+  font-size: 2rem;
 }
 
 /* Media Queries */
