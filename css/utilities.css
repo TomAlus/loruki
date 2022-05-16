@@ -35,6 +35,48 @@
   border: 1px solid var(--color-white);
 }
 
+/* Background and buttons */
+.bg-primary,
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: var(--color-tertiary);
+  color: var(--color-white);
+}
+
+.bg-light,
+.btn-light {
+  background-color: var(--color-gray-3);
+  color: var(--color-gray);
+}
+
+/* Text sizes */
+.lead {
+  font-size: 2rem;
+}
+.sm {
+  font-size: 1.6rem;
+}
+.md {
+  font-size: 3.2rem;
+}
+.lg {
+  font-size: 4.8rem;
+}
+.xl {
+  font-size: 6.4rem;
+}
+
 .text-center {
   text-align: center;
 }

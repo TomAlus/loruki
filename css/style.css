@@ -2,10 +2,13 @@
 
 :root {
   --color-primary: #047aed;
+  --color-secondary: #1c3fa8;
+  --color-tertiary: #002240;
+
   --color-white: #fff;
   --color-gray: #333;
-
   --color-gray-2: #b4becb;
+  --color-gray-3: #f4f4f4;
 }
 
 *,
@@ -215,4 +218,9 @@ img {
 .cli .grid > *:first-child {
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
+}
+
+/* Cloud */
+.cloud .grid {
+  grid-template-columns: 4fr 3fr;
 }
